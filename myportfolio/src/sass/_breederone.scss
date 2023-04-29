@@ -1,0 +1,138 @@
+.breder{
+    height: 350px;
+    img{
+        position: absolute;
+    }
+    .blog{
+        position: relative;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      top: 150px;
+      .btn{
+        background-color: #F04336;
+        width: 100px;
+      }
+      .home{
+        color: #F04336;
+      }
+      .span{
+        color: #fff;
+      }
+    }
+}
+.breederOne{
+    background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/themes/kutto/assets/img/bg/breeder_details_bg.jpg');
+    .boxOne{
+        // width: 600px;
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 40px;
+        .pawprint{
+            border-radius: 30px;
+        }
+        h3{
+    color: #0a303a;
+    font-weight: 700;
+        }
+        p{
+          font-size: 16px;
+          font-weight: 500;
+          color: #676666;
+          margin-bottom: 15px;
+        }
+        h6{
+         color: #f04336;
+        }
+        
+    }
+    .findped{
+      background-color: #fff;
+      // width: 600px;
+      background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 40px 25px;
+    margin-bottom: 30px;
+  
+      .formcontrol{
+        // margin-top: 20px;
+        // border: 1px solid #e1e1e1;
+        border-radius: 6px;
+        font-size: 14px;
+        padding: 14px 20px 14px 10px;
+        color: #818080;
+      
+      }
+      .fa-magnifying-glass{
+        color: #fff;
+      }
+    
+      i{
+        color: #818080;
+margin-right: 10px;
+        }
+        h3{
+          color: #0a303a;
+          font-weight: 700;
+        }
+    }
+    .subscribe{
+      color: #fff;
+      background-color: #143556;
+      border-radius: 10px;
+      padding: 45px 45px 50px;
+      text-align: center;
+      .enterform{
+        font-size: 14px;
+        text-align: center;
+        padding: 19px ;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+    
+    }
+  
+}
+.hero{
+  background-image: url("https://themebeyond.com/demo/kuttolive/wp-content/uploads/2022/05/slider_bg01.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: center ;
+   
+  
+.breederpuppies{
+  // margin-top: 100px;
+  height: 400px;
+  background-color:rgba(0,0,0, .1);
+color: #fff;
+}
+}
+@media (max-width:1100px) {
+  .boxOne{
+    .breederimg{
+      width: 400px;
+    }
+  }
+}
+@media (max-width:600px) {
+  .findped{
+    display: none;
+   }
+
+}
+.bg-dark  {
+  .breederOne{
+    background-image: none;
+    background-color: #000;
+  }
+  .boxOne {
+    background-color: #181A21;
+  }
+  .boxOne *{
+    color: #fff !important;
+  }
+
+}
+
+

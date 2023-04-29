@@ -1,0 +1,166 @@
+.aboutcount{
+    background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/uploads/2022/06/about_bg.jpg');
+height: 500px;
+width: 100%;
+}
+.aboutbreeder{
+    width: 100%;
+    height: auto;
+    background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/uploads/2022/06/about_bg.jpg');
+    .item{
+        margin-top: 200px;
+    }
+    .breeder{
+        border: none;
+        transform: translateY(100px) !important;
+        transition: .5s;
+        &:hover{
+            box-shadow: 5px 10px 18px #888888;
+        }
+        p{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            color: #676666;
+        }
+        h5{
+            font-weight: bold;
+            color: #F04336;
+        }
+        h3{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+            color: #0A303A;
+        }
+        // .animate{
+        //     background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/themes/kutto/assets/img/bg/about_bg_shape.png');
+        // }
+        .support{
+            position: absolute;
+        }
+        .available{
+            z-index: 5;
+            position: relative;
+            top: 200px;
+            left: 260px;
+            background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/themes/kutto/assets/img/bg/about_exp_bg.png');
+            background-color: #F04336;
+            width: 170px;
+            height: 200px;
+            color: #fff;
+        .plane{
+            margin-left: 60px;
+        }
+        }
+        }
+}
+.count{
+transform: translateY(150px);
+    .counter{
+        // width: 250px;
+        height: 170px;
+        background-color: #fff;
+        border-radius: 10%;
+        transition: .5s;
+        &:hover{
+            box-shadow: 5px 10px 18px #888888;
+            h1{
+                color: #F04336;
+            }
+
+        }
+        h1,p{
+            transform: translateY(15px);
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}
+@media (max-width:820px) {
+ 
+    .support{
+//  height: 400px;
+width: 250px;
+ margin-top: 100px;
+       }
+       .available{
+        // height: 100px;
+transform: translate(-170px,100px);
+       }
+       .aboutbreeder{
+        height: 100vh;
+    }
+    .servicebreed{
+        margin-top: 150px;
+            }
+}
+@media (max-width: 705px) {
+    .aboutbreeder{
+        height:auto;
+        .swing{
+            margin-top: 210px;
+           }     
+           .available{
+            transform: translateX(-45px);
+           }
+    }
+}
+@media (max-width:415px) {
+    .support{
+        transform: translate(13px,-70px);
+    }
+    .available{
+        display: none;
+    }
+        .swing{
+      transform: translateY(80px);
+        .infinite{
+            display: none;
+        }
+    }
+}
+@media (max-width:768px) {
+ .aboutcount{
+    height: auto;
+ }
+}
+@media (max-width:280px) {
+.aboutbreeder{
+    // height: 2700px;
+    .support{
+        width: 150px;
+        
+    }
+    .swing{
+  transform: translateY(-40px);
+    }
+}
+ 
+}
+@media (min-width:912px) and (max-width:920px) {
+    .support{
+        width: 300px;
+        top: 10%;
+    }
+    .available{
+        transform: translate(-130px,20px);
+    }
+}
+@media (min-width:1024px) and (max-width:1280px) {
+    .available{
+      
+        transform: translateX(-100px);
+    }
+    .support{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .log{
+transform: translateX(-25px);
+    }
+    .kutto{
+        width: 50px !important;
+    }
+}
+

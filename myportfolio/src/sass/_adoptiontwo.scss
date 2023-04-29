@@ -1,0 +1,141 @@
+.adoptions{
+    // height: auto;
+.adoptionOne{
+    height: 350px;
+    img{
+        position: absolute;
+    }
+    .blog{
+        position: relative;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      top: 150px;
+      .btn{
+        background-color: #F04336;
+        width: 100px;
+      }
+      .home{
+        color: #F04336;
+      }
+      .span{
+        color: #fff;
+      }
+    }
+}
+.domestic{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/uploads/2022/06/about_bg.jpg');
+.carousel{
+    z-index: 0;
+    img{
+        height: 420px;
+    }
+}
+h3{
+    color: #F04335;
+    font-weight: bold;
+}
+h1{
+    color: #0A303A;
+    font-weight: bold;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: #6B757B;
+}
+i{
+    color: #F04335;
+}
+span{
+    color: #0A303A;
+    font-size: 20px;
+font-weight: 500;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #F04335;
+    margin-left: 80px;
+    h5,h1,p{
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .button{
+        border: none;
+        background-color: #fff;
+        color: #F04336;
+    }
+}
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left,.react-multiple-carousel__arrow--right {
+   display: none;
+    // color: #000 !important;
+}
+
+}
+@media (max-width:760px) {
+    .adoptions{
+        height: 230vh;
+    }
+    .domestic{
+        height: 180vh !important;
+    }
+}
+@media (min-width:390px) and (max-width:414px) {
+ .domestic{
+height: 150vh !important ;
+ }
+}
+.bg-dark {
+    .adoptionOne *{
+        color: #000;
+    }
+    .domestic{
+        background-image: none;
+        background-color: #000;
+    }
+    .domestic *{
+        color: #fff !important;
+    }
+    .box *{
+        color: #000;
+        .button{
+            background-color: #000 !important;
+            color: #fff ;
+        }
+    }
+    .adoptionPuppies {
+        background-color: #000;
+      .pup{
+        color: #fff;
+      }
+      .card{
+        background-color: #181A21;
+      }
+      .adoptmister{
+        color: #fff;
+    }
+    }
+    .adopmeet{
+        background-color: #000;
+    }
+    .adopmeet *{
+        color: #fff;
+    }
+  .blog *{
+    color: #000;
+  }
+}
+@media (min-width:760px) and (max-width:912px) {
+.domestic{
+    .box{
+        transform: translateX(200px);
+      }
+}
+}
+@media (min-width:540px) and (max-width:542px) {
+   .faqquestion{
+    display: none;
+   }
+    }

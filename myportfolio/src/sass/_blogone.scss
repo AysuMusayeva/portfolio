@@ -1,0 +1,129 @@
+.blogOne{
+    height: 400px;
+    img{
+        position: absolute;
+    }
+
+    .blog{
+        position: relative;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      top: 150px;
+      .btn{
+        background-color: #F04336;
+        width: 100px;
+      }
+      .home{
+        color: #F04336;
+      }
+      .span{
+        color: #fff;
+      }
+    }
+}
+
+.category{
+    background-color: #F4F2EB;
+    height: 330px;
+    width: 300px;
+    border-radius: 20px;
+    h4,li{
+        font-weight:bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    ul{
+        li{
+            list-style: none;
+            color: gray;
+            &:hover{
+                color: #F04336;
+            }
+        }
+  
+    }
+}
+.onlinepet{
+    background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/uploads/2022/06/about_bg.jpg');
+    .adoption{
+        color: grey;
+    }
+    h2{
+        color: #0A303A;
+        transition: .5s;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 20px;
+        &:hover{
+            color: #F04336;
+        }
+    }
+    p{
+        color: #676666;
+        font-weight: 400;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .photo0{
+        border-radius: 20%;
+        // height: 150px;
+    }
+    .categories{
+        background-color: #fff;
+        // height: auto;
+        // width: 300px;
+        border-radius: 20px;
+        i{
+            color: #F04336;
+        }
+    }
+    .knowledge{
+        width: 300px;
+        height: 160px;
+        background-color: #F4F2EB;
+        border-radius: 20px;
+        .button{
+            background-color: #fff;
+            border: none;
+            color: grey;
+            margin-top: 15px;
+        }
+    }
+}
+.bloginput{
+    h3{
+        color: #0a303a;
+        font-weight: 700;
+    }
+    input{
+        border: 1px solid #eaeaea;
+        height: 70px;
+        margin-bottom: 30px;
+        // color: #1f2226;
+    }
+}
+.logintitle{
+    font-family: 'Passion One', cursive;
+    font-weight: 900;
+}
+.loginform{
+    border-radius: 50px;
+    padding: 1rem;
+}
+.loginbuton{
+    // margin-left: 120px;
+    padding: .55rem 6rem;
+}
+.blogdel{
+    margin-left: 170px !important;
+}
+@media(max-width:900px){
+    .photo{
+        width: 470px;
+    }
+}
+@media (max-width:819px) {
+
+   .blogdel{
+    margin-left: -10px !important;
+   }
+
+    
+}

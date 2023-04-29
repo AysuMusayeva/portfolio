@@ -1,0 +1,111 @@
+.latestnews{
+    height: auto;
+    .singleCardd{
+        border: none;
+        position: relative;
+        transition:  1.5s;
+    
+        &:hover{
+            transform: scale(1.1);
+            .singleCardd{
+              
+                // background-color: red !important;
+                box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 50px 0 rgba(0, 0, 0, 0.19) !important;
+            }
+        }
+  
+        p{
+            font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #676666;
+        }
+        h5{
+            font-size: 19px;
+            font-weight: bold;
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+          transition: .5s;
+          &:hover{
+            color: brown;
+          }
+        }
+    }
+    .cloud{
+        position: relative;
+        z-index: 0;
+        bottom: 30px;
+        height: 30px;
+     }
+    .customer{
+        h4{
+            color: #F04336;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #0A303A;
+            font-weight: 900;
+        }
+        span{
+            color: #676666;
+            font-weight: 400;
+            font-size: 18px;
+        }
+     }
+
+     .newsletter{
+        img{
+            position: absolute;
+            border-radius: 10px;
+            right: 60px;
+        }
+        h1,p,input,.btn{
+            color: #fff;
+            position: relative;
+            top: 50px;
+        }
+        input{
+            border: none;
+            background: #fff;
+            clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
+            padding: 21px 100px;
+            color: #676666;
+            font-size: 14px;
+            border-radius: 10px 10px 35px 10px;
+        }
+        .btn{
+            border: none;
+            background: #fff;
+            color: #f04336;
+            width: 220px;
+            justify-content: center;
+            height: 63px;
+            clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+            border-radius: 35px 10px 10px 10px;
+        }
+     }
+}
+@media (max-width: 1120px) {
+        .newsletter{
+            img{
+                height:300px;
+            } 
+        }
+}
+@media (max-width: 500px) {
+    .latestnews{
+        height: auto;
+    }
+  
+}
+.bg-dark {
+    .latestnews{
+        .animalpuppie{
+            color: #fff;
+        }
+    }
+    .cardbody{
+        background-color: #181A21;
+    }
+   
+}

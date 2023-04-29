@@ -1,0 +1,77 @@
+.adoptionPuppies{
+    h4{
+        color: #F04336;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #0A303A;
+        font-weight: 900;
+    }
+    span{
+        color: #8A8989;
+        font-weight: 400;
+        font-size: 18px;
+    }
+   .card{
+    border: none;
+i{
+    color: #EF5549;
+    font-size: 20px
+}
+span{
+    color: #8A8989;
+    font-size: 15px;
+}
+h4{
+    font-family: 'Nunito', sans-serif;
+    color: #0a303a;
+    font-weight: 800;
+    transition: .5s;
+&:hover{
+    color: #EF5549;
+}
+}
+   }
+   .carousel{
+    z-index: 0;
+   }
+}
+.answer{
+    // width: 600px;
+    // height: 625px;
+    background-color: #EF5549;
+    color: #fff;
+    h1,h5{
+        font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    }
+    .photo3{
+        float: right;
+    }
+}
+@media (max-width:500px) {
+    .adoptionfaqquestion{ 
+        .adoptphoto,.answer{
+       width: 470px;
+        }
+    }
+}
+@media (min-width:300px) and (max-width:540px)  {
+    .answer{
+      max-width: 370px;
+    }
+}
+@media (max-width:280px) {
+    .answer{
+      max-width: 280px;
+    }
+    .box{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:9120px)  {
+   .adoptionfaqquestion{
+    display: none;
+   }
+}

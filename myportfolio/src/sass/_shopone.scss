@@ -1,0 +1,172 @@
+.shopOne{
+    height: 350px;
+
+    img{
+        position: absolute;
+    }
+    .blog{
+        position: relative;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      top: 150px;
+      .btn{
+        background-color: #F04336;
+        width: 100px;
+      }
+      .home{
+        color: #F04336;
+      }
+      .span{
+        color: #fff;
+      }
+    }
+}
+.category{
+    background-color: #F4F2EB;
+    height: auto;
+    width: 250px ;
+    border-radius: 20px;
+    .button{
+        display: block;
+        // margin-left: 20px;
+        border: none;
+        background-color: #F4F2EB;
+        color: #676666;
+        font-weight: 900;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    i{
+        color: #F04336;
+    }
+}
+.inputsearch{
+    border: none;
+    border-radius: 20px;
+    background-color: #F4F2EB;
+  height: 50px;
+}
+.singleshop{
+    border: none;
+    opacity: 1;
+    display: block;
+    .middle{
+        transition: .5s ;
+        opacity: 0;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        // -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }    &:hover{
+        .imgshops{
+            opacity: 0.6;
+        }
+        .middle{
+            opacity: 1;
+        }
+    }
+    h6{
+        font-size: 15px;
+        color: #7F7F7F;
+    }
+    h4{
+        color: #0A303A;
+    }
+    .addbutton{
+        color: #F04336;
+        background-color: #fff;
+        border: none;
+        font-weight: 700;
+     transform: translateY(-10px);
+    }
+}
+.results{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 70px;
+   border-radius: 10px;
+    background-color: #F4F2EB;
+    // margin-left: 30px;
+    .nextbtn:hover{
+       background-color: #BB2D3B;
+       color: #fff;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        li{
+            list-style: none;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 33px;
+                height: 32px;
+                background: #fff;
+                border: 1px solid #e1e1e1;
+                text-align: center;
+                border-radius: 3px;
+                font-size: 13px;
+                color: #676666;
+                font-weight: 500;
+                text-decoration: none;
+                margin-left: 8px;
+                &:hover{
+                    border-color: #f04336;
+background-color: #f04336;
+                }
+            }
+        }
+    }
+    // .paginate{
+    //     background-color: red;
+    // }
+}
+
+@media (max-width:750px) {
+    .category,.gameproduct,input{
+margin-left: 70px;
+    }
+}
+.bg-dark {
+    .shopcontainer{
+        background-color: #000 ;
+    }
+.aboutbreeder{
+    .card{
+        background-color: #000 !important;
+    }
+}
+    .singleshop{
+        background-color: #181A21;
+        .addbutton{
+            background-color: #181A21;
+        }
+        .fa-heart{
+            color: #BB2D3B;
+        }
+    }
+    .singleshop *{
+        color: #fff;
+    }
+
+.card{
+    background-color: #181A21 !important;
+}
+// 
+.sidebarr{
+    p{
+        color: #fff;
+    }
+}
+.wishlist{
+    background-color:#000 !important;
+}
+.sd-headerr{
+    .card{
+        background-color: #000 !important;
+        border-radius: 0%;
+    }
+}
+}

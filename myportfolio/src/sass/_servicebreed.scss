@@ -1,0 +1,136 @@
+.servicebreed{
+    background-image: url('https://themebeyond.com/demo/kuttolive/wp-content/uploads/2022/05/breed_services_shape01.png');
+    width: 100%;
+    height: 100vh;  
+    // margin-top: 150px !important ;
+   
+    h4{
+        color: #F04336;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #0A303A;
+        font-weight: 900;
+    }
+    p{
+        color: #676666;
+        font-weight: 400;
+        font-size: 18px;
+    }
+   
+.loop{
+    width: 700px;
+    // position: relative;
+    z-index: 0;
+}
+.box{
+    width: 400px;
+    height: 370px;
+    background-color: #F04335;
+    // margin-left: 80px;
+    h5,h1,p{
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .button{
+        border: none;
+        background-color: #fff;
+        color: #F04336;
+    }
+}
+
+
+
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left,.react-multiple-carousel__arrow--right {
+    background-color: #F04335;
+    // color: #000 !important;
+}
+@media (max-width: 1124px) {
+    .servicebreed{
+        height: auto;
+     .loop{
+        width: auto;
+     } 
+    }
+ 
+}
+.bg-dark {
+    .servicebreed{
+        background-color: #000;
+    }
+    .populardog{
+        color: #fff;
+    }
+    .box *{
+        color: #000 !important;
+        .button{
+            background-color: #000;
+            color: #fff !important;
+        }
+    }
+    .faqquestion{
+        .accordion-button{
+            background-color: #000;
+        }
+    .test{
+background-color: #000 !important;
+color: #fff;
+    }
+    .work{
+        color: #fff;
+    }
+    .text{
+        background-color: #000 ;
+    }
+
+    }
+  
+}
+
+.resp{
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: .55rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    font-family: 'Gilda-Display',serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    // letter-spacing: .16rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #F04336;
+      border-radius: 10rem;
+      z-index: -2;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: darken(#0A303A, 15%);
+      transition: all .3s;
+      border-radius: 10rem;
+      z-index: -1;
+    }
+    &:hover {
+      color: #fff;
+      &:before {
+        width: 100%;
+      }
+    }
+}

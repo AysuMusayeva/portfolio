@@ -1,0 +1,42 @@
+.adoptionmeet{
+    h3{
+        color: #F04335;
+        font-weight: bold;
+    }
+    h1{
+        color: #0A303A;
+        font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    p{
+        color: #6B757B;
+    }
+    i{
+        color: #F04335;
+    }
+    span{
+        color: #0A303A;
+        font-size: 20px;
+    font-weight: 500;
+    }
+}
+.adoption{
+    .Swiper{
+        height: 400px;
+        // width:500px ;
+        img{
+            width: 500px;
+            height: 450px;
+        }
+        .swiper-pagination-bullet{
+            background-color: #F04335;
+          } 
+      
+    }
+}  
+
+@media (max-width:1023px) {
+    .moon{
+        display: none  !important;
+    }
+}
